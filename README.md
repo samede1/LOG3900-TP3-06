@@ -27,6 +27,19 @@ Pour installer Git (version), suivez les instructions suivantes :
 2. Vérifier l'installation de Git à l'aide de la commande : 
     - git --version
 
+
+## Installation des dépendances
+Pour installer les dépendances du projet il faut d'abord créer un environnement virtuel: 
+1. Effectuer la commande suivante dans le terminal à la racine du projet: 
+    - python -m venv venv
+2. Activer l'environnement selon l'OS. 
+
+Pour installer les dépendances, il faut réaliser les étapes suivantes, toujours à la racine du projet : 
+1. Effectuer la commande suivante : 
+    - pip install -r requirements.txt
+ 
+
+
 ## Exécution du projet
 Pour exécuter le projet, il faut d'abord ... 
 

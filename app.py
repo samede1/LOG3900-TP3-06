@@ -1,6 +1,8 @@
 from flask import Flask, request, render_template
 from operators import add, subtract, multiply, divide
 
+
+
 app = Flask(__name__)
 
 OPS = {
@@ -11,6 +13,14 @@ OPS = {
 }
 
 def calculate(expr: str):
+
+    """ Rôle : Fonction principale du backend. 
+        Converti l'expression string entrée en opération de nombres et valide l'entrée. 
+        Fait appel aux opérateurs définis dans le backend.
+        Entrées: { expr: str }.
+        Sorties: { int ou double }. 
+    """
+
     if not expr or not isinstance(expr, str):
         raise ValueError("empty expression")
 
@@ -43,6 +53,13 @@ def calculate(expr: str):
 
 @app.route('/', methods=['GET', 'POST'])
 def index():
+
+    """ Rôle: Traite les requêtes GET et POST du frontend.
+        Met à jour le résultat affiché dans la page HTML 'index'.
+        Entrées: {}.
+        Sorties: { str }.
+      """
+
     result = ""
     if request.method == 'POST':
         expression = request.form.get('display', '')
