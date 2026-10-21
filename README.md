@@ -3,7 +3,7 @@ Nom du projet : LOG3000_TP3
 Équipe: 06
 Ceci est le dépôt de l'équipe 6 du cours LOG3000 dans le cadre du TP3. Il comporte le code du projet de calculatrice de la startup. Ceci a pour objectif de structurer et de documenter la gesiton de versions de l'équipe de développement de la startup pour en améliorer les processus. 
 
-La logique métier du projet est développé en Python, tandis que l'interface est en HTML et CSS. 
+Le frontend du projet est en HTML et CSS, tandis que son backend est en Python. La bibliothèque Flask est utilisée pour le serveur. 
 
 
 ## Prérequis du projet
