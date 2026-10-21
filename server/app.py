@@ -1,5 +1,5 @@
 from flask import Flask, request, render_template
-from server.operators import add, subtract, multiply, divide
+from operators import add, subtract, multiply, divide
 
 
 
