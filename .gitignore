@@ -1,0 +1,6 @@
+# ignorer l'environnement virtuel 
+venv/
+
+# ignorer les fichiers bytecode générés
+__pycache__/
+*.pyc
