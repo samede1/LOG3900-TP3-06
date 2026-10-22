@@ -28,4 +28,4 @@ def divide(a,b):
         Entrées: { a: int ou double, b: int ou double }. 
         Sorties: { int ou double }. """
     
-    return a // b
+    return a / b
