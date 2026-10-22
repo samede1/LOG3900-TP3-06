@@ -3,7 +3,9 @@ from operators import add, subtract, multiply, divide
 
 
 
-app = Flask(__name__)
+app = Flask(__name__, 
+            template_folder='../client/templates',
+            static_folder='../client/static')
 
 OPS = {
     '+': add,
