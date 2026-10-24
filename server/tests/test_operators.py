@@ -1,7 +1,15 @@
+"""
+
+Tests unitaires du module operators.
+
+Ces tests valident les opérations et les comportements attendus de la calculatrice.
+
+"""
+
 import pytest
 from server.operators import add, subtract, multiply, divide
 
-""" Tests de la méthode add """
+""" Tests de la méthode add : add(a, b) retourne a + b. """
 
 def test_add_two_positive_ints():
     result = add(2,2)
@@ -27,7 +35,7 @@ def test_add_zero():
     result = add(5,0)
     assert(result == 5)
 
-""" Tests de la méthode substract """
+""" Tests de la méthode subtract : subtract(a, b) retourne a - b. """
 
 def test_subtract_two_positive_ints():
     result = subtract(2,2)
@@ -53,7 +61,7 @@ def test_subtract_zero():
     result = subtract(5,0)
     assert(result == 5)
 
-""" Tests de la méthode multiply """
+""" Tests de la méthode multiply : multiply(a, b) retourne a * b. """
 
 def test_multiply_two_int():
     result = multiply(2,3)
@@ -75,7 +83,7 @@ def test_multiply_one_negative():
     result = multiply(12, -6)
     assert(result == -72)
 
-""" Tests de la méthode divide """
+""" Tests de la méthode divide : divide(a, b) retourne a / b. """
 
 def test_divide_two_ints():
     result = divide(165, 5)
