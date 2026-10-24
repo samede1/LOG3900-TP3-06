@@ -1,3 +1,9 @@
+"""
+
+Module qui définit les opérations mathématiques simples de la calculatrice pour effectuer les calculs.
+
+"""
+
 def add(a,b):
 
     """ Rôle: Fonction d'addition de 2 opérateurs. 
