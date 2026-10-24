@@ -8,6 +8,6 @@ Le module de tests sous le répertoire "/tests" est également présent dans ser
 
 ## Dépendances et exécution
 La dépendance centrale du module est la bibliothèque Frask. 
-Pour exécuter le code du backend et démarrer le serveur Frask, il faut effectuer la commande suivante : 
+Pour exécuter le code du backend et démarrer le serveur Frask (essentiel poour afficher l'interface utilisateur), il faut effectuer la commande suivante : 
     - python app.py
 

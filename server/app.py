@@ -1,7 +1,13 @@
 from flask import Flask, request, render_template
 from operators import add, subtract, multiply, divide
 
+"""
 
+Module principal de l'application calculatrice web Flask.
+
+Ce module met en place l'application Flask et ses routes, puis utilise operators pour effectuer les calculs.
+
+"""
 
 app = Flask(__name__, 
             template_folder='../client/templates',
